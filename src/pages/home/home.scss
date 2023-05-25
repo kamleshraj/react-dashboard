@@ -1,0 +1,16 @@
+.home-wrapper{
+    display: flex;
+    .home-container{
+        flex: 6;
+        .home-innerWrapper{
+        .widgets,.charts{
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        .list-container{
+            padding: 20px;
+        }
+        }
+    }
+}

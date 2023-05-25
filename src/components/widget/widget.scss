@@ -1,0 +1,58 @@
+.widgets{
+    .item{
+        display: flex;
+        justify-content: space-between;
+        padding:15px;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        width: 100%;
+        min-height: 150px;
+        
+        .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .counter{
+                font-size: 30px;
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            .percentage{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color:green
+            }
+            .user-icon{
+                align-self: flex-end;
+                padding: 6px 10px;
+                border-radius: 6px;
+                
+            }
+        }
+        &.Users{
+            .user-icon{
+                background-color: rgb(255, 235, 235);
+                color:red
+            }
+        }
+        &.Orders{
+            .user-icon{
+                background-color: rgb(225, 255, 239);
+                color: green;
+            }
+        }
+        &.Balance{
+            .user-icon{
+                background-color: rgb(225, 255, 239);
+            }
+        }
+        &.Earnings{
+            .user-icon{
+                background-color: rgb(225, 255, 239);
+            }
+        }
+    }
+}

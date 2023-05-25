@@ -1,0 +1,9 @@
+.list-wrapper{
+    display: flex;
+    .listContainer{
+        flex: 6;
+        .dataGridContainer{
+            margin: 20px;
+        }
+    }
+}
